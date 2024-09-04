@@ -1,0 +1,13 @@
+.conversation-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .conversation-placeholder img {
+    max-width: 95%;
+    max-height: 600%;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.Form{
+  
+  width:600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 8px #aaaaaa;
+}
+.reg{
+  max-width:460px;
+  border: 1px solid #aecee0;
+  border-radius:5px;
+}
+.Input{
+  margin-left: 100px;
+}
+.btn{
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: #149CEA;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  
+  text-align: center;
+  cursor: pointer;
+  margin:5px;
+}
+
+
+.title{
+  color:black;
+  font-weight: 400;
+  font-family:'Roboto';
+
+}
+.dispflex{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.inp{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding:2px 5px;
+  margin:25px;
+  font-size: 16px;
+}
+.inp:focus{
+  outline: none;
+  
+}
+
+.btn1{
+  background-color: #149CEA;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.df{
+  margin:30px;
+  padding: 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+h3{
+  font-weight: 400;
+  font-size: 32px;
+}
+.homeflex{
+  display: flex;
+}
